@@ -11,7 +11,7 @@ import jakarta.persistence.*;
 public class Inventario {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO, generator = "secuencia_inventario")
-    @GenericGenerator(name = "secuencia_inventario", strategy="increment")
+    @GenericGenerator(name = "secuencia_inventario", strategy = "increment")
     @Column(name = "id")
     private long id;
 

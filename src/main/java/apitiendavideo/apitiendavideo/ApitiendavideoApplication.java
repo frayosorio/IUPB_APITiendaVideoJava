@@ -3,6 +3,8 @@ package apitiendavideo.apitiendavideo;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+
+
 @SpringBootApplication
 public class ApitiendavideoApplication {
 
@@ -10,4 +12,5 @@ public class ApitiendavideoApplication {
 		SpringApplication.run(ApitiendavideoApplication.class, args);
 	}
 
+	
 }
